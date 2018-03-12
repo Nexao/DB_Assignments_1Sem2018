@@ -16,3 +16,4 @@ _Use the set notations (union, intersect or except) on the Chinook dataset to fi
 - Write a line of text in the notebook: What did you find?
 
 ### Solution: 
+_See here: https://github.com/cph-cs241/DB_Assignments_1Sem2018/blob/master/DB5_AlgebraicModelling/ChinookData.ipynb_
