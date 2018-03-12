@@ -1,0 +1,26 @@
+{
+  "name": "key-value",
+  "version": "1.0.0",
+  "description": "_Build a simple_db in the programming language of your choice._\r * _Implement a Hashmap-based index._\r * _Implement functionality to store your data on disk in a binary file._\r * _Implement functionality to read your data from disk again, so that you can reinstantiate your database after a shutdown._",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "stream": "^0.0.2",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cph-cs241/Database_KeyValue.git"
+  },
+  "author": "CJS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cph-cs241/Database_KeyValue/issues"
+  },
+  "homepage": "https://github.com/cph-cs241/Database_KeyValue#readme"
+}
