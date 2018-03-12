@@ -17,3 +17,22 @@ _Use the set notations (union, intersect or except) on the Chinook dataset to fi
 
 ### Solution: 
 _See here: https://github.com/cph-cs241/DB_Assignments_1Sem2018/blob/master/DB5_SetOperationsSQL/ChinookData.ipynb_
+
+###### SETUP:
+- `docker pull jegp/soft2018-data `<br>
+- `docker pull jegp/soft2018-jupyter`<br>
+- `docker run -p 5432:5432 --name data -d jegp/soft2018-data`<br>
+- `docker exec -it data bash -c "psql -U appdev"`<br>
+- `docker run -p 8888:8888 --name jupyter --link data -it jegp/soft2018-jupyter`
+  or <br>
+`docker run -p 8888:8888 -v /vagrant/jupyter:/home/jovyan --name jupyter --link data -it jegp/soft2018-jupyter `<br>
+- use the generated token as the login
+
+
+
+_Start running SQL commands:_
+
+`%load_ext sql` <br>
+`%sql postgresql://appdev@data/appdev`<br>
+`%sql SELECT * FROM information_schema.tables;`<br>
+`%sql SELECT * FROM information_schema.tables  WHERE table_schema='chinook';`<br>
