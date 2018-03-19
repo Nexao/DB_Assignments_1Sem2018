@@ -24,6 +24,8 @@ _See here: https://github.com/cph-cs241/DB_Assignments_1Sem2018/blob/master/DB5_
 `docker run -p 8888:8888 -v /vagrant/jupyter:/home/jovyan --name jupyter --link data -it jegp/soft2018-jupyter `<br>
 - use the generated token as the login
 
+- `docker logs <name/hash of the container running>`
+
 
 
 _Start running SQL commands:_
