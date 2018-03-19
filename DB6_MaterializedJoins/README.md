@@ -13,9 +13,7 @@ _Your job is to 1) describe the content and function of an index, 2) analyse a j
 4. Create a materialized view of your query. Using EXPLAIN ANALYZE try to query the view. Write at least 5 lines of text explaining what's going on and why the query execution time changed.
 
 ### Solution: 
-_See here: _
-
-
+_See here: https://github.com/cph-cs241/DB_Assignments_1Sem2018/blob/master/DB6_MaterializedJoins/MaterializedJoins_Circuits.ipynb_
 
 ### Important Commands:
 - `docker pull jegp/soft2018-data `<br>
