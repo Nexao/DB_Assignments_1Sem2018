@@ -1,3 +1,12 @@
 /DB1_KeyValue/node_modules
 
 /DB2_MongoDB/data
+
+/DB9_ComparisonSQLGraph/import
+/DB9_ComparisonSQLGraph/plugins
+/DB9_ComparisonSQLGraph/target
+/DB9_ComparisonSQLGraph/-d
+/DB9_ComparisonSQLGraph/--publish=7474:7474
+/DB9_ComparisonSQLGraph/--publish=7687:7687
+/DB9_ComparisonSQLGraph/--rm
+
