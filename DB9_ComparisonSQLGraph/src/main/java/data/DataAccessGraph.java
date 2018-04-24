@@ -26,7 +26,7 @@ public class DataAccessGraph{
         list = getResults(result);
         session.close();
         graphCon.closeDriver();
-
+        System.out.println("DONE");
 
         return list;
 

@@ -13,11 +13,13 @@ public class Depth {
     String name;
     String ave;
     String med;
+    String time;
 
-    public Depth(String name, String ave, String med) {
+    public Depth(String name, String ave, String med, String time) {
         this.name = name;
         this.ave = ave;
         this.med = med;
+        this.time = time;
     }
 
     public String getName() {
@@ -43,6 +45,16 @@ public class Depth {
     public void setMed(String med) {
         this.med = med;
     }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+    
+    
     
     
     

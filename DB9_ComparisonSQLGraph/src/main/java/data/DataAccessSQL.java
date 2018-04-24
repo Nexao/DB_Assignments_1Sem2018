@@ -42,7 +42,7 @@ public class DataAccessSQL implements IDataAccessor {
         try {
             Connection connection = this.sqlCon.getConnection();
             Statement stmt = connection.createStatement();
-            String query = "SELECT * FROM chinook.person LIMIT 10;";
+            String query = "SELECT * FROM chinook.person LIMIT 50;";
             ResultSet res = stmt.executeQuery(query);
             list = this.getResults(res);
         } catch (Exception e) {
